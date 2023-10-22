@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.group1, .group2 {
+    margin: 20px;
+}
+.header {
+    border: 1px solid red;
+}
+.header1, .header2 {
+    display: flex;
+}
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
