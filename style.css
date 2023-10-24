@@ -16,6 +16,8 @@ body {
     display: flex;
     align-items: center;
     font-size: 1rem;
+    font-weight: bold;
+    margin: 1%;
 }
 .header1, .header2 {
     display: flex;
@@ -74,7 +76,7 @@ button {
 }
 .content {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     background-color: #e5e7eb;
 }
 h4 {
@@ -82,34 +84,47 @@ h4 {
     font-size: 1rem;
 }
 .boxes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5%;
-    justify-items: center;
+  display: flex;
+  max-width: 900px;
+  min-height: 590px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .proyects{
     border-left: 5px solid #dc2626;
-    min-height: 150px;
+    min-height: 120px;
     width: 300px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 2%;
+    font-size: 1rem;
+    box-shadow: 10px 5px 20px rgb(165, 165, 165);
+}
+.buttons {
+    margin-top: 10%;
+    margin-left: 65%;
 }
 .announcements {
     font-size: 10px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 10px 5px 20px gray;
+    box-shadow: 10px 5px 20px rgb(168, 168, 168);
     padding: 5%;
+    margin-right: 5%;
 }
-
+.trendings {
+    background-color: white;
+    box-shadow: 10px 5px 20px gray;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
 .trending-boxes {
     display: flex;
-    background-color: white;
     padding-left: 5%;
     padding-top: 5%;
-    border-radius: 20px;
-    box-shadow: 10px 5px 20px gray;
+    gap: 10px;
 }
 .trending-text {
     margin: 0%;
