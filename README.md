@@ -1,2 +1,2 @@
 # Admin-Dashboard
-Live preview: https://skyviolet.github.io/Admin-Dashboard/
+Live preview: https://lmcygnus.github.io/Admin-Dashboard/
